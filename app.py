@@ -18,7 +18,7 @@ st.sidebar.divider()
 app_mode = st.sidebar.selectbox('Select Page', ["Sleep Well?", "Diagnosis", "About Project", "Presentation", "Team"])
 if app_mode == 'Sleep Well?':
     st.title("Sleep Well?")
-    st.image('./bebek.jpg')
+    st.image('./bebek.png')
     #st.write('This app is prepared for insomniacs 😵‍💫')
     st.divider()
     st.subheader('This project was prepared as a final project for Miuul&VBO Data Scientist Bootcamp, DSB13 semester.')
